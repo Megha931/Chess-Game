@@ -187,9 +187,9 @@ bool Board::moveKing(Square* thisKing, Square* thatSpace) {
 		else return false;
 	else return false;
 }
-bool Board::moveQueen(Square* thisQueen, Square* thatSpace) { //there might be problems with numbers of brackets
-													   //off board inputs should be handled elsewhere (before this)
-													   //squares with same color should be handled elsewhere (before this)
+bool Board::moveQueen(Square* thisQueen, Square* thatSpace) { 
+													  
+													   
 
 	int queenX = thisQueen->getX();
 	int queenY = thisQueen->getY();
@@ -258,7 +258,7 @@ bool Board::moveQueen(Square* thisQueen, Square* thatSpace) { //there might be p
 	}
 }
 
-bool Board::moveBishop(Square* thisBishop, Square* thatSpace) { //there might be problems with number of brackets
+bool Board::moveBishop(Square* thisBishop, Square* thatSpace) {
 	int bishopX = thisBishop->getX();
 	int bishopY = thisBishop->getY();
 	int thatX = thatSpace->getX();
