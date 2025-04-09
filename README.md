@@ -25,11 +25,13 @@ Environment: Console / Terminal
 ## ⚙ Setup Instructions
 1. Clone the Repository
 git clone repository_link
+
 cd Chess-Game
 
 3. Compile the Code
 g++ -o chess_game main.cpp
+
 Replace main.cpp with the correct entry file name if it's different.
 
-4. Run the Program
+5. Run the Program
 ./chess_game
