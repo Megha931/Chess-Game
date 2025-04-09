@@ -1,10 +1,10 @@
-♟ Chess Game – Console-Based Application in C++
+# ♟ Chess Game – Console-Based Application in C++
 An interactive, console-based chess game developed using C++ and Object-Oriented Programming (OOP) principles. This project offers a fully functional chess engine with real-time move validation, check/checkmate detection, and a clean board layout for a seamless terminal-based gameplay experience.
 
-📘 Overview
+## 📘 Overview
 This application simulates a two-player chess game with an emphasis on modular design and accurate rule implementation. Each piece is modeled using OOP concepts, ensuring proper behavior, legality of moves, and game state tracking throughout the match.
 
-🔍 Features
+## 🔍 Features
 Implements official chess rules including castling, en passant, and pawn promotion
 
 Check and checkmate detection
@@ -15,29 +15,21 @@ Interactive and clean CLI-based interface
 
 Move validation and feedback for illegal inputs
 
-🧰 Technologies Used
+## 🧰 Technologies Used
 Language: C++
 
 Paradigm: Object-Oriented Programming (OOP)
 
 Environment: Console / Terminal
 
-⚙ Setup Instructions
+## ⚙ Setup Instructions
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/Megha931/Chess-Game.git
+git clone repository_link
 cd Chess-Game
-2. Compile the Code
-bash
-Copy
-Edit
+
+3. Compile the Code
 g++ -o chess_game main.cpp
 Replace main.cpp with the correct entry file name if it's different.
 
-3. Run the Program
-bash
-Copy
-Edit
+4. Run the Program
 ./chess_game
